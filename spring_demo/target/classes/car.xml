@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+  <bean id="mycar" class="org.jsp.springdemo.Car"></bean>
+  <bean id="myperson" class="org.jsp.springdemo.Person">
+     <property name ="age" value ="20"></property>
+     <property name="name" value = "Lukman"></property>
+
+  </bean>
+  <bean id="myuser" class = "org.jsp.springdemo.User">
+  <constructor-arg name="name" value="lukman"></constructor-arg>
+  <constructor-arg name="phone" value="996699"></constructor-arg>
+  <constructor-arg name="email" value="khan.com"></constructor-arg>
+  <constructor-arg name="age" value="21"></constructor-arg>
+  <constructor-arg name="salary" value="45000"></constructor-arg>
+  </bean>
+</beans>

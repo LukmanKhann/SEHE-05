@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;spring-hibernate-demo&apos;&#x0D;&#x0A;- Original project: &apos;spring-hibernate-demo&apos;&#x0D;&#x0A;- Original element: &apos;spring-hibernate-demo/src/main/java/org.jsp.tutorialspring.controller&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.tutorialspring.controller" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.tutorialspring" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1688899677281" subPackages="false" version="1.0"/>
+</session>
